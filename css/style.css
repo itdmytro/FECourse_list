@@ -186,6 +186,7 @@ table {
 }
 .qualities-caption {
   margin-bottom: 6px;
+  line-height: 20px;
 }
 .qualities-item {
   margin-bottom: 30px;
