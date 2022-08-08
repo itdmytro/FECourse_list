@@ -207,6 +207,19 @@ table {
   margin: 0 0 -20px -30px;
 }
 
+/*Typography RESPONSIVE*/
+
+@media only screen
+
+and (max-width: 799px) {
+  .main-title {
+    font-size: 36px;
+  }
+  .secondary-title {
+    font-size: 28px;
+  }
+}
+
 /*Тобі підійде... RESPONSIVE*/
 
 /* tablet */
@@ -232,6 +245,9 @@ and (max-width: 799px) {
   .qualities-section {
     display: block;
     padding: 0 20px;
+  }
+  .qualities-list {
+    margin-left: 0;
   }
   .qualities-image {
     transform: none;
